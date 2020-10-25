@@ -12,7 +12,7 @@ module.exports = {
                 accessToken: process.env.CONTENTFUL_API_KEY
             }
         },
-        // 'gatsby-plugin-sass',
+        'gatsby-plugin-sass',
         {
             resolve: 'gatsby-source-filesystem',
             options: {
